@@ -103,7 +103,7 @@ export default function Home() {
             HARGUN
           </h2>
         </div>
-        <div className="flex flex-col items-center text-center gap-6 mt-0 lg:pt-0">
+        <div className="flex flex-col items-center text-center gap-6 mt-0">
           <h2 className="text-white text-sm sm:text-base">
             ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ <br />
             ਪੁਰਖੁ ਨਿਰਭਉ <br />
@@ -159,7 +159,7 @@ export default function Home() {
                 <img
                   src={event.image}
                   alt={event.title}
-                  className="lg:w-80 w-44 sm:w-56 h-auto"
+                  className="lg:w-80 w-95 sm:w-76 h-auto"
                 />
 
                 <h2 className="text-white font-cormorant text-2xl sm:text-3xl mt-4">
@@ -183,22 +183,46 @@ export default function Home() {
             ))}
           </div>
         </div>
-        <div className="flex justify-center mt-10 pb-24">
-          <img src="/assets/kripal.png" alt="" className="lg:h-120 lg:w-120 w-60 h-60 md:w-90 md:h-95" />
+
+      </div>
+
+
+      <div className="hidden md:block bg-[url('/assets/Group_2147224830.png')] bg-cover bg-no-repeat">
+        <div className="lg:h-325 md:h-180">
+          <h1 className="lg:text-3xl text-xl text-center text-[#E1EF1E] lg:pt-54 pt-12 font-cormorant">
+            MEET THE
+          </h1>
+          <h2 className="lg:text-[80px] text-2xl text-center text-[#EAD670] lg:pt-6 font-cormorant leading-16">
+            Bride <br /> & <br /> Groom
+          </h2>
         </div>
       </div>
-      <div className="bg-[url('/assets/Group_2147224830.png')] bg-cover bg-no-repeat">
-        <div className="lg:h-325 md:h-180 h-90">
-          <h1 className="lg:text-3xl text-xl text-center text-[#E1EF1E] lg:pt-54 pt-12 font-cormorant">MEET THE</h1>
-          <h2 className="lg:text-6xl text-2xl text-center text-[#EAD670] lg:pt-6 font-cormorant">Bride <br /> & <br />Groom</h2>
+
+
+      {/* mobile visible section */}
+
+      <div className="md:hidden bg-[url('/assets/group_mobile.png')] bg-cover bg-no-repeat">
+        <div className="h-230">
+          <h1 className="text-xl text-center text-[#E1EF1E] pt-24 font-cormorant">
+            MEET THE
+          </h1>
+          <h2 className="text-6xl text-center text-[#EAD670] font-cormorant mt-6">
+            Bride <br /> & <br /> Groom
+          </h2>
         </div>
       </div>
 
       <CoupleMessage />
       <ThingsToKnow />
 
-      <div className="bg-[url('/assets/bridewithmoon.png')] bg-cover bg-no-repeat">
-        <div className="lg:h-325 md:h-180 h-92">
+      <div className="hidden md:block bg-[url('/assets/bridewithmoon.png')] bg-cover bg-no-repeat">
+        <div className="lg:h-325 md:h-180">
+        </div>
+      </div>
+
+{/* mobile visible section */}
+      <div className="md:hidden bg-[url('/assets/bridewithmoon_mobile.png')] bg-cover bg-no-repeat">
+        <div className="h-230">
         </div>
       </div>
       <MarriageCountdown />
