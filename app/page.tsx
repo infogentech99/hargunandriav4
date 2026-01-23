@@ -153,7 +153,7 @@ export default function Home() {
             RIA
           </h2>
 
-          <div className="flex flex-col items-center text-center gap-6 mt-0 pt-50 md:pt-150">
+          <div className="flex flex-col items-center text-center gap-6 mt-0  pt-150">
             <h2 className="text-white text-sm sm:text-base ">
               ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ <br />
               ਪੁਰਖੁ ਨਿਰਭਉ <br />
