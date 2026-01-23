@@ -2,7 +2,7 @@ export default function ThingsToKnow() {
     return (
         <>
             <div className="bg-[url('/assets/backmid.png')] bg-cover bg-no-repeat">
-                <div className="lg:h-360 md:h-320 h-460">
+                <div className="lg:h-360 md:h-320 h-480">
                     <h1 className=" lg:text-[100px] text-[60px] md:text-3xl text-center text-white lg:pt-32 pt-12 font-cormorant-upright">Things to <br/> know</h1>
                     <h2 className="lg:text-[30px] text-[18px] text-center text-white lg:pt-6 lg:px-60 px-6 lg:mt-4 mt-2 font-cormorant">To help you feel at ease and enjoy every moment of the celebrations, we’ve gathered a few thoughtful details we’d love for you to know before the big day.</h2>
                     <div className="flex justify-center mt-20 pb-24">
