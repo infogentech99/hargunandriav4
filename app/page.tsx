@@ -250,7 +250,7 @@ export default function Home() {
 
 
             <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl mt-2 text-[18px]">
-              D/O <br /> (Insert Names)
+              D/O <br /> Ram Jaiswal and Roomy Jaiswal
 
             </p>
             <p className="text-[#E6D2FF] font-cormorant-upright lg:text-3xl md:text-2xl text-[22px] mt-8">
