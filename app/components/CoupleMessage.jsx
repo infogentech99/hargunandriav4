@@ -38,7 +38,7 @@ export default function CoupleMessage() {
 
     return (
 
-        <div className="bg-[url('/assets/backmid.png')] bg-cover bg-no-repeat">
+        <div className="bg-[url('/assets/backmid_h.png')] bg-cover bg-no-repeat">
             <div className="lg:h-592 md:h-520 h-510">
                 <h1 className="lg:text-[40px] md:text-3xl text-[50px] text-center text-[#DEE6FF] lg:pt-32 pt-12 font-cormorant-upright">A message from the couple</h1>
                 <h2 className="lg:text-[30px] text-[18px]  text-center text-[#DEE6FF] lg:px-60 px-6 lg:mt-28 mt-12 font-cormorant-upright lg:leading-8 md:leading-8 leading-6">
@@ -77,18 +77,29 @@ export default function CoupleMessage() {
                     </Swiper>
                 </div>
                 <div className="flex flex-col-1 justify-center items-center mt-16">
-                    <div className="bg-[url('/assets/seap.png')] bg-cover bg-no-repeat lg:h-150 lg:w-150 h-95 w-95 md:h-120 md:w-120">
-                        <h1 className="lg:text-6xl md:text-5xl text-[44px] leading-10 font-bold lg:leading-12 lg:font-semibold text-center text-[#3c2267] lg:pt-26 md:pt-22 pt-16 font-cormorant-upright">
+                    <div className="bg-[url('/assets/seap_h.png')] bg-cover bg-no-repeat lg:h-150 lg:w-150 h-95 w-95 md:h-120 md:w-120">
+                        <h1 className="lg:text-6xl md:text-5xl text-[40px] leading-10 font-bold lg:leading-12 lg:font-semibold text-center text-[#3c2267] lg:pt-26 md:pt-22 pt-16 font-cormorant-upright">
                             Looking <br /> forward to <br />seeing you</h1>
-                        <p className="lg:text-[22px] text-[14px] text-[#3c2267] mt-6 text-center font-cormorant">
+                        <p className="lg:text-[22px] text-[14px] text-[#3c2267] md:mt-6 mt-4 text-center font-cormorant">
                             Click the link to RSVP
                         </p>
+                        <p className="lg:text-[22px] text-[14px] text-[#3c2267] md:mt-6 mt-2 text-center font-cormorant font-semibold">
+                            Amarjeet Singh:<br /> <a
+                                href="https://wa.me/919811075858"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >9811075858</a> <br />
+                            Kawaljeet Singh:<br /><a
+                                href="https://wa.me/9811449797"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            > 9811449797</a></p>
                     </div>
                 </div>
 
 
                 <div className="flex flex-col justify-center items-center lg:mt-15 mt-18">
-                    <h2 className="lg:text-3xl text-2xl text-center text-white lg:pt-6 font-cormorant-upright">Please help us capture our special day, <br/> use the hashtag</h2>
+                    <h2 className="lg:text-3xl text-2xl text-center text-white lg:pt-6 font-cormorant-upright">Please help us capture our special day, <br /> use the hashtag</h2>
                     <h2 className="lg:text-3xl text-2xl text-center text-white pt-2 font-cormorant-upright"> #FromRiaToKataria</h2>
                     <img src="/assets/newmoon.png" alt="" className="bg-cover bg-no-repeat lg:h-80 lg:w-80 h-65 w-65 md:h-90 md:w-90 mt-12" />
                     {/* <h2 className="lg:text-2xl text-xl text-center text-white lg:pt-12 md:pt-12 pt-6 font-cormorant">Hashtag</h2> */}
