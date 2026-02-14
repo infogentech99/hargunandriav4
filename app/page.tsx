@@ -47,7 +47,7 @@ export default function Home() {
       image: "/assets/reception.png",
       date: "Sunday, March 8th 2026",
       venue: "AKASA",
-      venue_address: <>Main Road, Opposite Petrol Pump, Kapashera Extn, <br /> Pushpanjali Farms, New Delhi, 110061</>,
+      venue_address: <>Main Road, Opposite Petrol Pump, <br /> Kapashera Extn, Pushpanjali Farms, New Delhi, 110061</>,
       time: "7:30 pm onwards",
       link: "https://maps.app.goo.gl/uNMNPpgk6ukDJnZe7",
     },
