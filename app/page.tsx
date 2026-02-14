@@ -44,7 +44,7 @@ export default function Home() {
   const events = [
     {
       title: "Sagan & Cocktail",
-      image: "/assets/cocktail.png",
+      image: "/assets/reception.png",
       date: "Sunday, March 8th 2026",
       venue: "AKASA",
       venue_address: <>Main Road, Opposite Petrol Pump, Kapashera Extn, <br /> Pushpanjali Farms, New Delhi, 110061</>,
@@ -69,7 +69,7 @@ export default function Home() {
     },
     {
       title: "Reception",
-      image: "/assets/reception.png",
+      image: "/assets/cocktail.png",
       date: "Wednesday, March 11th 2026",
       venue: "THE NIKUNJ",
       venue_address: <>Emperor Hall <br />NH 8, 22nd Milestone, near IGI Airport, New Delhi, 110038</>,
@@ -194,7 +194,7 @@ export default function Home() {
         <div className=" pt-24 pb-20 relative z-10">
 
           <h2 className="text-[#DEE6FF]  text-center leading-tight
-     text-[60px] sm:text-5xl lg:text-[90px] md:pb-350 pb-0
+     text-[70px] sm:text-5xl lg:text-[100px] md:pb-350 pb-0
   flex flex-col items-center gap-y-6">
 
             <span className="font-parisienne">Hargun</span>
@@ -206,7 +206,7 @@ export default function Home() {
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-150 pt-250">
-            <h2 className="text-[#E6D2FF] text-sm sm:text-base text-center">
+            <h2 className="text-[#E6D2FF] md:text-xl text-[17px] text-center">
               ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥ <br />
               ਸਤਿਗੁਰੂ ਦਾਤੇ ਕਾਜ ਰਚਾਇਆ, ਆਪਣੀ ਮੇਹਰ ਕਰਾਈ । <br />
               ਦਾਸਾਂ ਕਾਰਜ ਆਪ ਸਵਾਰੇ, ਇਹ ਉਸ ਦੀ ਵਡਿਆਈ ॥
@@ -218,14 +218,14 @@ export default function Home() {
               className="w-40 sm:w-52 h-auto"
             />
 
-            <h2 className="text-[#E6D2FF] lg:text-[30px] md:text-2xl text-[18px] font-cormorant-upright">
+            <h2 className="text-[#E6D2FF] lg:text-[30px] md:text-2xl text-[20px] font-cormorant-upright">
               With the heavenly blessings of
               grandparents<br /> Late Sdn. Parkash Kaur & Late Sd. Avtar Singh
             </h2>
 
             <hr className="lg:w-24 w-16 border-[#E6D2FF] my-4" />
 
-            <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[34px] md:text-2xl text-[24px]">
+            <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[34px] md:text-2xl text-[26px]">
               The Kataria Family
             </h2>
           </div>
@@ -237,32 +237,32 @@ export default function Home() {
               INVITES
             </h2>
 
-            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl text-[18px] mt-6">
+            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl text-[20px] mt-6">
               you to join us in the wedding celebrations of
             </p>
 
             <h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-14
-            md:text-5xl text-[60px] lg:text-[100px] leading-tight font-bold">
+            md:text-5xl text-[64px] lg:text-[100px] leading-tight font-bold">
               HARGUN
             </h2>
 
-            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl text-[18px] mt-2">
+            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl text-[20px] mt-2">
               S/O <br /> Sdn. Gurmeet Kaur & Sd. Amarjeet Singh
             </p>
 
             <h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-4
-            text-[60px] sm:text-7xl lg:text-[100px] leading-tight font-bold">
+            text-[64px] sm:text-7xl lg:text-[100px] leading-tight font-bold">
               <span className="text-[#E6D2FF] font-cormorant-upright text-center lg:mt-10 mt-4 
-            md:text-5xl text-[80px] lg:text-[150px] leading-tight">&</span>   <br />
+            md:text-5xl text-[82px] lg:text-[150px] leading-tight">&</span>   <br />
               RIA
             </h2>
 
 
-            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl mt-2 text-[18px]">
+            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl mt-2 text-[20px]">
               D/O <br /> Mrs. Roomy Jaiswal & Mr. Ram Jaiswal
 
             </p>
-            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-3xl md:text-2xl text-[22px] mt-8">
+            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
               On the following events
             </p>
           </div>
