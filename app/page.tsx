@@ -297,7 +297,7 @@ export default function Home() {
                   </a>
 
 
-                  <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[45px] md:text-2xl text-[35px] mt-4">
+                  <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[45px] md:text-2xl text-[35px] md:mt-4 mt-10">
                     {event.title2}
                   </h2>
 
@@ -309,7 +309,7 @@ export default function Home() {
                   {event.link_barat && (
                     <a
                       href={event.link_barat}
-                      className="text-[#E6D2FF] underline text-sm mt-2 font-cormorant"
+                      className="text-[#E6D2FF] underline text-sm mt-2 font-cormorant mb-26"
                       target="_blank"
                     >
                       See the route
